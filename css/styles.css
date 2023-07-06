@@ -1,0 +1,121 @@
+/* BODY CSS */
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* HEADERS CSS & GENERAL CONFIGS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+p{
+    color: #202020;
+    font-size: 1.2rem;
+}
+
+/*TEXTS CONFIG*/
+.title-text {
+    font-size: 5rem;
+}
+
+.subtitle-text{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.subtitle-text-2{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+/* Container Configs */
+
+.container-fluid{
+    padding: 10% 15% 5%;
+    text-align: left;
+}
+
+/* NAVBAR */
+
+.navbar {
+    color: white;
+    padding: 20px 10px;
+}
+
+.navbar-brand{
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.nav-item{
+    padding: 0px 15px;
+}
+
+.nav-link{
+    font-size: 1.05rem;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+
+/* TITLE SECTION*/
+#title {
+    background-image: url(/images/fundo.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.color-blue{
+    /* Fallback: Set a background color. */
+    background-color: rgb(163, 163, 163);
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #0331e8, #369eff);
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.home-button {
+    margin-top: 20px;
+}
+
+.home-button > button {
+    margin-right: 15px;
+}
+
+
+/* ADVANTAGES SECTION */
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+#advantages {
+    padding: 3% 0px 0px 0px;
+    background-color: #F7F8FA;
+}
+
+/* SERVICES SECTION */
+#services {
+    height: 70vh;
+    background-color: #F7F8FA;
+}
+
+  
+/* PORTFOLIO SECTION */
+
+#portfolio {
+    background-color: #F7F8FA;
+}
